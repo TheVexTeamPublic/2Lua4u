@@ -1,0 +1,595 @@
+
+local HEheh = Instance.new("ScreenGui")
+local _2Lua4u = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local _2Lua4uLuaImage = Instance.new("ImageButton")
+local Buttons = Instance.new("Folder")
+local Connecter = Instance.new("TextButton")
+local UIGridLayout = Instance.new("UIGridLayout")
+local Connecter_2 = Instance.new("TextButton")
+local Connecter_3 = Instance.new("TextButton")
+local Connecter_4 = Instance.new("TextButton")
+local Connecter_5 = Instance.new("TextButton")
+local Connecter_6 = Instance.new("TextButton")
+local Connecter_7 = Instance.new("TextButton")
+local Connecter_8 = Instance.new("TextButton")
+local Fast = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local HighJump = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local LowJump = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local RegularSpeed = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local RegularJump = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Slow = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Respawn = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Fly = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Useless = Instance.new("Folder")
+local Line4 = Instance.new("TextLabel")
+local Line3 = Instance.new("TextLabel")
+local Line2 = Instance.new("TextLabel")
+local Line1 = Instance.new("TextLabel")
+local CreatorName = Instance.new("TextLabel")
+local Close = Instance.new("TextLabel")
+local ButtonsBackground = Instance.new("TextLabel")
+local Topbar1 = Instance.new("TextLabel")
+local UICorner_10 = Instance.new("UICorner")
+local Topbar2 = Instance.new("TextLabel")
+
+HEheh.Name = "HEheh"
+HEheh.Parent = game:GetService("CoreGui")
+HEheh.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+_2Lua4u.Name = "2Lua4u"
+_2Lua4u.Parent = HEheh
+_2Lua4u.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+_2Lua4u.Position = UDim2.new(0.31160894, 0, 0.222664014, 0)
+_2Lua4u.Size = UDim2.new(0, 200, 0, 248)
+_2Lua4u.ZIndex = 5
+
+UICorner.CornerRadius = UDim.new(0, 10)
+UICorner.Parent = _2Lua4u
+
+_2Lua4uLuaImage.Name = "2Lua4uLuaImage"
+_2Lua4uLuaImage.Parent = _2Lua4u
+_2Lua4uLuaImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2Lua4uLuaImage.BackgroundTransparency = 1.000
+_2Lua4uLuaImage.Position = UDim2.new(0, 15, 0, 25)
+_2Lua4uLuaImage.Size = UDim2.new(0, 70, 0, 70)
+_2Lua4uLuaImage.ZIndex = 15
+_2Lua4uLuaImage.Image = "http://www.roblox.com/asset/?id=2164076881"
+
+Buttons.Name = "Buttons"
+Buttons.Parent = _2Lua4u
+
+Connecter.Name = "Connecter"
+Connecter.Parent = Buttons
+Connecter.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Connecter.BackgroundTransparency = 1.000
+Connecter.Position = UDim2.new(0.00999999978, 0, 0.337899536, 0)
+Connecter.Selectable = false
+Connecter.Size = UDim2.new(0, 75, 0, 20)
+Connecter.ZIndex = 5
+Connecter.Font = Enum.Font.SourceSans
+Connecter.Text = " "
+Connecter.TextColor3 = Color3.fromRGB(0, 0, 0)
+Connecter.TextSize = 1.000
+Connecter.TextWrapped = true
+
+UIGridLayout.Parent = Buttons
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellPadding = UDim2.new(0, 50, 0, 10)
+UIGridLayout.CellSize = UDim2.new(0, 75, 0, 20)
+
+Connecter_2.Name = "Connecter"
+Connecter_2.Parent = Buttons
+Connecter_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Connecter_2.BackgroundTransparency = 1.000
+Connecter_2.Position = UDim2.new(0.00999999978, 0, 0.337899536, 0)
+Connecter_2.Selectable = false
+Connecter_2.Size = UDim2.new(0, 75, 0, 20)
+Connecter_2.ZIndex = 5
+Connecter_2.Font = Enum.Font.SourceSans
+Connecter_2.Text = " "
+Connecter_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Connecter_2.TextSize = 1.000
+Connecter_2.TextWrapped = true
+
+Connecter_3.Name = "Connecter"
+Connecter_3.Parent = Buttons
+Connecter_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Connecter_3.BackgroundTransparency = 1.000
+Connecter_3.Position = UDim2.new(0.00999999978, 0, 0.337899536, 0)
+Connecter_3.Selectable = false
+Connecter_3.Size = UDim2.new(0, 75, 0, 20)
+Connecter_3.ZIndex = 5
+Connecter_3.Font = Enum.Font.SourceSans
+Connecter_3.Text = " "
+Connecter_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Connecter_3.TextSize = 1.000
+Connecter_3.TextWrapped = true
+
+Connecter_4.Name = "Connecter"
+Connecter_4.Parent = Buttons
+Connecter_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Connecter_4.BackgroundTransparency = 1.000
+Connecter_4.Position = UDim2.new(0.00999999978, 0, 0.337899536, 0)
+Connecter_4.Selectable = false
+Connecter_4.Size = UDim2.new(0, 75, 0, 20)
+Connecter_4.ZIndex = 5
+Connecter_4.Font = Enum.Font.SourceSans
+Connecter_4.Text = " "
+Connecter_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Connecter_4.TextSize = 1.000
+Connecter_4.TextWrapped = true
+
+Connecter_5.Name = "Connecter"
+Connecter_5.Parent = Buttons
+Connecter_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Connecter_5.BackgroundTransparency = 1.000
+Connecter_5.Position = UDim2.new(0.00999999978, 0, 0.337899536, 0)
+Connecter_5.Selectable = false
+Connecter_5.Size = UDim2.new(0, 75, 0, 20)
+Connecter_5.ZIndex = 5
+Connecter_5.Font = Enum.Font.SourceSans
+Connecter_5.Text = " "
+Connecter_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Connecter_5.TextSize = 1.000
+Connecter_5.TextWrapped = true
+
+Connecter_6.Name = "Connecter"
+Connecter_6.Parent = Buttons
+Connecter_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Connecter_6.BackgroundTransparency = 1.000
+Connecter_6.Position = UDim2.new(0.00999999978, 0, 0.337899536, 0)
+Connecter_6.Selectable = false
+Connecter_6.Size = UDim2.new(0, 75, 0, 20)
+Connecter_6.ZIndex = 5
+Connecter_6.Font = Enum.Font.SourceSans
+Connecter_6.Text = " "
+Connecter_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Connecter_6.TextSize = 1.000
+Connecter_6.TextWrapped = true
+
+Connecter_7.Name = "Connecter"
+Connecter_7.Parent = Buttons
+Connecter_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Connecter_7.BackgroundTransparency = 1.000
+Connecter_7.Position = UDim2.new(0.00999999978, 0, 0.337899536, 0)
+Connecter_7.Selectable = false
+Connecter_7.Size = UDim2.new(0, 75, 0, 20)
+Connecter_7.ZIndex = 5
+Connecter_7.Font = Enum.Font.SourceSans
+Connecter_7.Text = " "
+Connecter_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+Connecter_7.TextSize = 1.000
+Connecter_7.TextWrapped = true
+
+Connecter_8.Name = "Connecter"
+Connecter_8.Parent = Buttons
+Connecter_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Connecter_8.BackgroundTransparency = 1.000
+Connecter_8.Position = UDim2.new(0.00999999978, 0, 0.337899536, 0)
+Connecter_8.Selectable = false
+Connecter_8.Size = UDim2.new(0, 75, 0, 20)
+Connecter_8.ZIndex = 5
+Connecter_8.Font = Enum.Font.SourceSans
+Connecter_8.Text = " "
+Connecter_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+Connecter_8.TextSize = 1.000
+Connecter_8.TextWrapped = true
+
+Fast.Name = "Fast"
+Fast.Parent = Buttons
+Fast.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Fast.Position = UDim2.new(0.00999999978, 0, 0.337899536, 0)
+Fast.Size = UDim2.new(0, 75, 0, 20)
+Fast.ZIndex = 5
+Fast.Font = Enum.Font.SourceSans
+Fast.Text = "Fast"
+Fast.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fast.TextScaled = true
+Fast.TextSize = 14.000
+Fast.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0, 5)
+UICorner_2.Parent = Fast
+
+HighJump.Name = "HighJump"
+HighJump.Parent = Buttons
+HighJump.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+HighJump.Position = UDim2.new(0.00999999978, 0, 0.337899536, 0)
+HighJump.Size = UDim2.new(0, 75, 0, 20)
+HighJump.ZIndex = 5
+HighJump.Font = Enum.Font.SourceSans
+HighJump.Text = "High Jump"
+HighJump.TextColor3 = Color3.fromRGB(0, 0, 0)
+HighJump.TextScaled = true
+HighJump.TextSize = 14.000
+HighJump.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 5)
+UICorner_3.Parent = HighJump
+
+LowJump.Name = "LowJump"
+LowJump.Parent = Buttons
+LowJump.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+LowJump.Position = UDim2.new(0.00999999978, 0, 0.337899536, 0)
+LowJump.Size = UDim2.new(0, 75, 0, 20)
+LowJump.ZIndex = 5
+LowJump.Font = Enum.Font.SourceSans
+LowJump.Text = "Low Jump"
+LowJump.TextColor3 = Color3.fromRGB(0, 0, 0)
+LowJump.TextScaled = true
+LowJump.TextSize = 14.000
+LowJump.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 5)
+UICorner_4.Parent = LowJump
+
+RegularSpeed.Name = "RegularSpeed"
+RegularSpeed.Parent = Buttons
+RegularSpeed.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+RegularSpeed.Position = UDim2.new(0.00999999978, 0, 0.337899536, 0)
+RegularSpeed.Size = UDim2.new(0, 75, 0, 20)
+RegularSpeed.ZIndex = 5
+RegularSpeed.Font = Enum.Font.SourceSans
+RegularSpeed.Text = "Reset Speed"
+RegularSpeed.TextColor3 = Color3.fromRGB(0, 0, 0)
+RegularSpeed.TextScaled = true
+RegularSpeed.TextSize = 14.000
+RegularSpeed.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 5)
+UICorner_5.Parent = RegularSpeed
+
+RegularJump.Name = "RegularJump"
+RegularJump.Parent = Buttons
+RegularJump.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+RegularJump.Position = UDim2.new(0.00999999978, 0, 0.337899536, 0)
+RegularJump.Size = UDim2.new(0, 75, 0, 20)
+RegularJump.ZIndex = 5
+RegularJump.Font = Enum.Font.SourceSans
+RegularJump.Text = "Reset JumpPower"
+RegularJump.TextColor3 = Color3.fromRGB(0, 0, 0)
+RegularJump.TextScaled = true
+RegularJump.TextSize = 14.000
+RegularJump.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 5)
+UICorner_6.Parent = RegularJump
+
+Slow.Name = "Slow"
+Slow.Parent = Buttons
+Slow.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Slow.Position = UDim2.new(0.00999999978, 0, 0.337899536, 0)
+Slow.Size = UDim2.new(0, 75, 0, 20)
+Slow.ZIndex = 5
+Slow.Font = Enum.Font.SourceSans
+Slow.Text = "Slow"
+Slow.TextColor3 = Color3.fromRGB(0, 0, 0)
+Slow.TextScaled = true
+Slow.TextSize = 14.000
+Slow.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 5)
+UICorner_7.Parent = Slow
+
+Respawn.Name = "Respawn"
+Respawn.Parent = Buttons
+Respawn.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Respawn.Position = UDim2.new(0.00999999978, 0, 0.337899536, 0)
+Respawn.Size = UDim2.new(0, 75, 0, 20)
+Respawn.ZIndex = 5
+Respawn.Font = Enum.Font.SourceSans
+Respawn.Text = "Respawn"
+Respawn.TextColor3 = Color3.fromRGB(0, 0, 0)
+Respawn.TextScaled = true
+Respawn.TextSize = 14.000
+Respawn.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 5)
+UICorner_8.Parent = Respawn
+
+Fly.Name = "Fly"
+Fly.Parent = Buttons
+Fly.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Fly.Position = UDim2.new(0.00999999978, 0, 0.337899536, 0)
+Fly.Size = UDim2.new(0, 75, 0, 20)
+Fly.ZIndex = 5
+Fly.Font = Enum.Font.SourceSans
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fly.TextScaled = true
+Fly.TextSize = 14.000
+Fly.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 5)
+UICorner_9.Parent = Fly
+
+Useless.Name = "Useless"
+Useless.Parent = _2Lua4u
+
+Line4.Name = "Line4"
+Line4.Parent = Useless
+Line4.BackgroundColor3 = Color3.fromRGB(130, 130, 130)
+Line4.BorderSizePixel = 0
+Line4.Position = UDim2.new(0.990000069, 0, 0.437859088, 0)
+Line4.Selectable = true
+Line4.Size = UDim2.new(0, 2, 0, 130)
+Line4.ZIndex = 5
+Line4.Font = Enum.Font.RobotoCondensed
+Line4.Text = ""
+Line4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Line4.TextScaled = true
+Line4.TextSize = 14.000
+Line4.TextWrapped = true
+
+Line3.Name = "Line3"
+Line3.Parent = Useless
+Line3.BackgroundColor3 = Color3.fromRGB(130, 130, 130)
+Line3.BorderSizePixel = 0
+Line3.Position = UDim2.new(7.62939436e-08, 0, 0.437859088, 0)
+Line3.Selectable = true
+Line3.Size = UDim2.new(0, 2, 0, 130)
+Line3.ZIndex = 5
+Line3.Font = Enum.Font.RobotoCondensed
+Line3.Text = ""
+Line3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Line3.TextScaled = true
+Line3.TextSize = 14.000
+Line3.TextWrapped = true
+
+Line2.Name = "Line2"
+Line2.Parent = Useless
+Line2.BackgroundColor3 = Color3.fromRGB(130, 130, 130)
+Line2.BorderSizePixel = 0
+Line2.Position = UDim2.new(7.62939436e-08, 0, 0.437859088, 0)
+Line2.Selectable = true
+Line2.Size = UDim2.new(0, 200, 0, 1)
+Line2.ZIndex = 5
+Line2.Font = Enum.Font.RobotoCondensed
+Line2.Text = ""
+Line2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Line2.TextScaled = true
+Line2.TextSize = 14.000
+Line2.TextWrapped = true
+
+Line1.Name = "Line1"
+Line1.Parent = Useless
+Line1.BackgroundColor3 = Color3.fromRGB(130, 130, 130)
+Line1.BorderSizePixel = 0
+Line1.Position = UDim2.new(7.62939436e-08, 0, 0.958020389, 0)
+Line1.Selectable = true
+Line1.Size = UDim2.new(0, 200, 0, 1)
+Line1.ZIndex = 5
+Line1.Font = Enum.Font.RobotoCondensed
+Line1.Text = ""
+Line1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Line1.TextScaled = true
+Line1.TextSize = 14.000
+Line1.TextWrapped = true
+
+CreatorName.Name = "CreatorName"
+CreatorName.Parent = Useless
+CreatorName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CreatorName.BackgroundTransparency = 1.000
+CreatorName.BorderSizePixel = 0
+CreatorName.Position = UDim2.new(0.629999995, 0, 0, 25)
+CreatorName.Size = UDim2.new(0, 73, 0, 39)
+CreatorName.ZIndex = 5
+CreatorName.Font = Enum.Font.RobotoCondensed
+CreatorName.Text = "2Lua4u"
+CreatorName.TextColor3 = Color3.fromRGB(0, 0, 0)
+CreatorName.TextScaled = true
+CreatorName.TextSize = 14.000
+CreatorName.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = Useless
+Close.BackgroundColor3 = Color3.fromRGB(130, 130, 130)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(7.62939436e-08, 0, -0.0218183454, 0)
+Close.Selectable = true
+Close.Size = UDim2.new(0, 0, 0, 255)
+Close.ZIndex = 155
+Close.Font = Enum.Font.RobotoCondensed
+Close.Text = ""
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+ButtonsBackground.Name = "ButtonsBackground"
+ButtonsBackground.Parent = Useless
+ButtonsBackground.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
+ButtonsBackground.BorderSizePixel = 0
+ButtonsBackground.Position = UDim2.new(0.0100000761, 0, 0.437859088, 0)
+ButtonsBackground.Selectable = true
+ButtonsBackground.Size = UDim2.new(0, 196, 0, 130)
+ButtonsBackground.Font = Enum.Font.RobotoCondensed
+ButtonsBackground.Text = ""
+ButtonsBackground.TextColor3 = Color3.fromRGB(0, 0, 0)
+ButtonsBackground.TextScaled = true
+ButtonsBackground.TextSize = 14.000
+ButtonsBackground.TextWrapped = true
+
+Topbar1.Name = "Topbar1"
+Topbar1.Parent = Useless
+Topbar1.BackgroundColor3 = Color3.fromRGB(130, 130, 130)
+Topbar1.BorderSizePixel = 0
+Topbar1.Position = UDim2.new(7.62939436e-08, 0, 0, 0)
+Topbar1.Selectable = true
+Topbar1.Size = UDim2.new(0, 200, 0, 21)
+Topbar1.ZIndex = 5
+Topbar1.Font = Enum.Font.RobotoCondensed
+Topbar1.Text = ""
+Topbar1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Topbar1.TextScaled = true
+Topbar1.TextSize = 14.000
+Topbar1.TextWrapped = true
+
+UICorner_10.CornerRadius = UDim.new(0, 10)
+UICorner_10.Parent = Topbar1
+
+Topbar2.Name = "Topbar2"
+Topbar2.Parent = Useless
+Topbar2.BackgroundColor3 = Color3.fromRGB(130, 130, 130)
+Topbar2.BorderSizePixel = 0
+Topbar2.Position = UDim2.new(7.62939436e-08, 0, 0.0547945201, 0)
+Topbar2.Selectable = true
+Topbar2.Size = UDim2.new(0, 200, 0, 9)
+Topbar2.ZIndex = 5
+Topbar2.Font = Enum.Font.RobotoCondensed
+Topbar2.Text = ""
+Topbar2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Topbar2.TextScaled = true
+Topbar2.TextSize = 14.000
+Topbar2.TextWrapped = true
+
+
+	Fast.MouseButton1Click:Connect(function()
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid").JumpPower = 125 --Fast
+
+	LowJump.MouseButton1Click:Connect(function()
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid").JumpPower = 20 -- Lowjump
+		
+		RegularSpeed.MouseButton1Click:Connect(function()
+			game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid").WalkSpeed = 16 -- Reset speed
+			
+			RegularJump.MouseButton1Click:Connect(function()
+				game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid").JumpPower = 50 --Regular jump
+				
+				Slow.MouseButton1Click:Connect(function()
+					game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid").WalkSpeed = 10 -- Slow
+					
+	Fly.MouseButton1Click:Connect(function()
+		game:GetService("Players").LocalPlayer.Character:Destroy()
+	repeat wait() until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("UpperTorso") and game.Players.LocalPlayer.Character:FindFirstChild("Humanoid") 
+	local mouse = game.Players.LocalPlayer:GetMouse() 
+	repeat wait() until mouse
+	local plr = game.Players.LocalPlayer 
+	local torso = plr.Character.UpperTorso 
+	local flying = true
+	local deb = true 
+	local ctrl = {f = 0, b = 0, l = 0, r = 0} 
+	local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+	local maxspeed = 50 
+	local speed = 0 
+	function Fly() 
+	local bg = Instance.new("BodyGyro", torso) 
+	bg.P = 9e4 
+	bg.maxTorque = Vector3.new(9e9, 9e9, 9e9) 
+	bg.cframe = torso.CFrame 
+	local bv = Instance.new("BodyVelocity", torso) 
+	bv.velocity = Vector3.new(0,0.1,0) 
+	bv.maxForce = Vector3.new(9e9, 9e9, 9e9) 
+	repeat wait() 
+	plr.Character.Humanoid.PlatformStand = true 
+	if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then 
+	speed = speed+.5+(speed/maxspeed) 
+	if speed > maxspeed then 
+	speed = maxspeed 
+	end 
+	elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then 
+	speed = speed-1 
+	if speed < 0 then 
+	speed = 0 
+	end 
+	end 
+	if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then 
+	bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).Position) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+	lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r} 
+	elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then 
+	bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).Position) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+	else 
+	bv.velocity = Vector3.new(0,0.1,0) 
+	end 
+	bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0) 
+	until not flying 
+	ctrl = {f = 0, b = 0, l = 0, r = 0} 
+	lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+	speed = 0 
+	bg:Destroy() 
+	bv:Destroy() 
+	plr.Character.Humanoid.PlatformStand = false 
+	end 
+	mouse.KeyDown:connect(function(key) 
+	if key:lower() == "e" then 
+	if flying then flying = false 
+	else 
+	flying = true 
+	Fly() 
+	end 
+	elseif key:lower() == "w" then 
+	ctrl.f = 1 
+	elseif key:lower() == "s" then 
+	ctrl.b = -1 
+	elseif key:lower() == "a" then 
+	ctrl.l = -1 
+	elseif key:lower() == "d" then 
+	ctrl.r = 1 
+	end 
+	end) 
+	mouse.KeyUp:connect(function(key) 
+	if key:lower() == "w" then 
+	ctrl.f = 0 
+	elseif key:lower() == "s" then 
+	ctrl.b = 0 
+	elseif key:lower() == "a" then 
+	ctrl.l = 0 
+	elseif key:lower() == "d" then 
+								ctrl.r = 0 
+							end
+						end)
+					end)
+				end)
+			end)
+		end)
+	end)
+end)
+
+local UserInputService = game:GetService("UserInputService")
+
+local gui = _2Lua4u
+
+local dragging
+local dragInput
+local dragStart
+local startPos
+
+local function update(input)
+	local delta = input.Position - dragStart
+	gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+end
+
+gui.InputBegan:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+		dragging = true
+		dragStart = input.Position
+		startPos = gui.Position
+
+		input.Changed:Connect(function()
+			if input.UserInputState == Enum.UserInputState.End then
+				dragging = false
+			end
+		end)
+	end
+end)
+
+gui.InputChanged:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+		dragInput = input
+	end
+end)
+
+UserInputService.InputChanged:Connect(function(input)
+	if input == dragInput and dragging then
+		update(input)
+	end
+end)
